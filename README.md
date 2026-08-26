@@ -1,51 +1,119 @@
-# Hospital Web Programming
+# 🏥 Hospital Management Web Application
 
-## Overview
+A full-stack hospital management web application designed to support patient and doctor workflows, appointment management, medical records, schedules, notifications, and authenticated access.
 
-Hospital Web Programming is a full-stack hospital management web application. It includes separate patient and doctor interfaces, appointment management, medical record handling, authentication, schedules, notifications, and backend API structure.
+The project combines a React frontend with a Node.js/Express backend and MongoDB database structure to demonstrate full-stack web application development.
 
-This project helped me practice building a complete web application with a React frontend and a Node.js/Express backend.
+## ✨ Features
 
-## Features
+### 👤 Patient Features
 
-- Patient and doctor authentication pages
-- Patient dashboard and profile pages
-- Doctor dashboard and patient management pages
-- Appointment booking and appointment details
-- Medical records and prescription pages
-- Schedule and notification features
-- REST API backend with routes, controllers, services, and models
-- MongoDB/Mongoose database structure
+* Patient authentication
+* Patient dashboard and profile
+* Appointment booking and appointment details
+* Medical records and prescriptions
+* Schedule and notification features
 
-## Technologies Used
+### 👨‍⚕️ Doctor Features
 
-- React
-- Vite
-- JavaScript
-- CSS
-- Node.js
-- Express.js
-- MongoDB / Mongoose
-- Axios
-- React Router
-- JWT authentication
+* Doctor authentication
+* Doctor dashboard
+* Patient management
+* Appointment management
+* Schedule management
+* Medical record and prescription management
 
-## Project Structure
+### 🔐 Backend & Authentication
 
-- `Hospital/` - React frontend
-- `backend/` - Node.js and Express backend
-- `RUN_PROJECT.txt` - project run notes
-- `TESTING_CHECKLIST.txt` - testing checklist
+* REST API architecture
+* Routes, controllers, services, and models
+* JWT-based authentication
+* MongoDB/Mongoose database integration
+* Frontend-to-backend communication using Axios
 
-## What I Learned
+## 🛠️ Technologies
 
-- How to organize a full-stack web application
-- How to create patient and doctor workflows
-- How to build reusable frontend pages and layouts
-- How to structure backend routes, controllers, services, and models
-- How to connect frontend requests to backend APIs
-- How authentication and protected app features work
+| Category          | Technologies                 |
+| ----------------- | ---------------------------- |
+| Frontend          | React, Vite, JavaScript, CSS |
+| Backend           | Node.js, Express.js          |
+| Database          | MongoDB, Mongoose            |
+| Authentication    | JWT                          |
+| API Communication | Axios                        |
+| Routing           | React Router                 |
 
-## Notes
+## 📁 Project Structure
 
-For security and clean repository management, environment files, dependencies, generated build files, and uploaded user files are not included in this repository.
+```text
+hospital-web-programming/
+│
+├── Hospital/
+│   └── React frontend
+│
+├── backend/
+│   └── Node.js / Express backend
+│
+├── RUN_PROJECT.txt
+├── TESTING_CHECKLIST.txt
+├── package-lock.json
+└── README.md
+```
+
+## 🔄 Application Architecture
+
+```text
+React Frontend
+      │
+      │ Axios / HTTP Requests
+      ▼
+Node.js + Express REST API
+      │
+      ▼
+MongoDB + Mongoose
+```
+
+Authentication and protected application features are handled through the application's authentication system.
+
+## 🧪 Testing
+
+The repository includes a testing checklist covering the main application functionality.
+
+See:
+
+`TESTING_CHECKLIST.txt`
+
+## ▶️ Running the Project
+
+Before running the project, review:
+
+`RUN_PROJECT.txt`
+
+The project contains separate frontend and backend components, so follow the provided instructions for starting each part of the application.
+
+## 📚 What This Project Demonstrates
+
+* Full-stack web application development
+* React component and page development
+* REST API design
+* Backend route and controller organization
+* Database integration
+* Authentication and protected application features
+* Frontend/backend communication
+* Patient and doctor workflow design
+* Application testing and documentation
+
+## 🚀 Future Improvements
+
+Potential improvements include:
+
+* Automated frontend and backend testing
+* Improved role-based access control
+* Enhanced notification functionality
+* Additional appointment management features
+* Improved deployment and production configuration
+
+## 👩‍💻 Project
+
+Developed as a Computer Science web programming project.
+
+[View the repository](https://github.com/CAROLJOY26/hospital-web-programming)
