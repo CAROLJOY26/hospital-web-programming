@@ -99,3 +99,19 @@ hospital-web-programming/
 ├── RUN_PROJECT.txt
 ├── TESTING_CHECKLIST.txt
 └── README.md
+## 📸 Screenshots
+
+### Patient Sign In
+![Patient Sign In](patient-signin.png)
+
+### Patient Dashboard
+![Patient Dashboard](patient-dashboard.png)
+
+### Appointments
+![Appointments](appointments.png)
+
+### Doctor Sign In
+![Doctor Sign In](doctor-signin.png)
+
+### Doctor Dashboard
+![Doctor Dashboard](doctor-dashboard.png)
