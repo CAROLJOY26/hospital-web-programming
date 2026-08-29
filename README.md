@@ -11,6 +11,7 @@ The system provides different interfaces for patients and doctors and connects t
 ## ✨ Features
 
 ### 👤 Patient Features
+
 - Patient registration and login
 - Patient dashboard
 - Profile management
@@ -21,6 +22,7 @@ The system provides different interfaces for patients and doctors and connects t
 - Notifications
 
 ### 👨‍⚕️ Doctor Features
+
 - Doctor registration and login
 - Doctor dashboard
 - Patient management
@@ -31,6 +33,7 @@ The system provides different interfaces for patients and doctors and connects t
 - Notifications
 
 ### 🔐 Backend Features
+
 - REST API architecture
 - JWT-based authentication
 - Protected routes
@@ -46,6 +49,7 @@ The system provides different interfaces for patients and doctors and connects t
 ## 🛠️ Technologies Used
 
 ### Frontend
+
 - React
 - JavaScript
 - Vite
@@ -54,6 +58,7 @@ The system provides different interfaces for patients and doctors and connects t
 - Axios
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB
@@ -61,6 +66,7 @@ The system provides different interfaces for patients and doctors and connects t
 - JWT
 
 ### Development Tools
+
 - Git
 - GitHub
 - ESLint
@@ -99,19 +105,32 @@ hospital-web-programming/
 ├── RUN_PROJECT.txt
 ├── TESTING_CHECKLIST.txt
 └── README.md
+```
+
 ## 📸 Screenshots
 
 ### Patient Sign In
+
 ![Patient Sign In](patient-signin.png)
 
 ### Patient Dashboard
+
 ![Patient Dashboard](patient-dashboard.png)
 
 ### Appointments
+
 ![Appointments](appointments.png)
 
 ### Doctor Sign In
+
 ![Doctor Sign In](doctor-signin.png)
 
 ### Doctor Dashboard
+
 ![Doctor Dashboard](doctor-dashboard.png)
+
+## 📌 Project Description
+
+This hospital management system provides dedicated workflows for patients and doctors. Patients can manage their profiles, appointments, medical records, prescriptions, and notifications, while doctors can manage patients, appointments, schedules, medical records, and their profiles.
+
+The application demonstrates full-stack development using a React frontend, Node.js/Express backend, MongoDB database, REST APIs, and JWT authentication.
